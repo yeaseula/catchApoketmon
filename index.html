@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>포켓몬 도감 (한글)</title>
-<style>
-  #pokemons { display: flex; flex-wrap: wrap; gap: 10px; }
-  .card { width: 120px; text-align: center; border: 1px solid #ccc; padding: 5px; border-radius: 8px; }
-  img { width: 100px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<section id="poketmon-slot-container">
-
-</section>
-
-<script src="js/main.js"></script>
+  <div id="wrapper">
+    <header>
+      <h1><img src="assets/img/logo.png" alt="로고" loading="lazy"></h1>
+      <nav class="menu-box">
+        <li class="search"><button type="button"><img src="assets/img/search-icon-w.svg"></button></li>
+        <li class="my-scrab"><button type="button"><img src="assets/img/favorit-icon-w.svg" alt=""></button></li>
+      </nav>
+    </header>
+    <section id="poketmon-slot-container"></section>
+  </div>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
